@@ -43,8 +43,8 @@ hyperparams <- list(
 )
 
 process_settings <- list(
-  n_sams = 500,
-  n_burn = 100,
+  n_sams = 10000,
+  n_burn = 50000,
   n_skip = 10
 )
 
