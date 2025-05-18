@@ -9,8 +9,6 @@
 #' hyperparameters. Subsequently, these are employed to fit the model using the R6 class
 #' structure developed.
 
-library(R6)
-library(mvtnorm)
 
 # Load function scripts and the class definition
 source('R/MultilevelBNPModel.R')
@@ -39,8 +37,8 @@ hyperparams <- list(
 )
 
 process_settings <- list(
-  n_sams = 1000,
-  n_burn = 500,
+  n_sams = 5000,
+  n_burn = 1000,
   n_skip = 5
 )
 
